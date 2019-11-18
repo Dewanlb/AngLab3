@@ -1,0 +1,12 @@
+<section>
+  <form (ngSubmit)="updateProfile()" name="updateForm">
+    <label for="nameUpdate">Name</label>
+    <input type="text" name="name" [(ngModel)]="profile.name" />
+    <div></div>
+    <label for="contactUpdate">Contact</label>
+    <input type="text" name="contact" [(ngModel)]="profile.contact" />
+    <div></div>
+    <label for="bioUpdate">Bio</label>
+    <input type="text" name="bio" [(ngModel)]="profile.bio" />
+  </form>
+</section>
